@@ -10,6 +10,7 @@
   --debug: #00fdb5;
   --blu: #0084fd;
   --azzurro: #b5ddff;
+  --viola: #9792e4;
 }
 
 .row {
@@ -17,7 +18,7 @@
   flex-direction: row;
 }
 
-.hero {
+.cont {
   max-width: 1140px;
   margin: 0 auto;
 }
@@ -31,6 +32,14 @@
 }
 
 /* DEBUG */
+.box {
+  border: 2px dashed red;
+}
+
+.img {
+  border: 2px solid black;
+}
+
 /* header debug*/
 .debug nav .logo,
 .menu {
@@ -39,13 +48,28 @@
 }
 
 /* hero one debug */
-.debug .one {
-  height: 870px;
-}
-
 .debug .one .box {
   text-align: center;
   height: 340px;
+}
+
+/* hero two debug */
+.debug .two .box:first-child {
+  height: 600px;
+}
+
+.debug .two .box:first-child .img {
+  height: 60%;
+  background-color: white;
+}
+
+.debug .two .box:last-child {
+  height: 450px;
+}
+
+.debug .two .box:last-child .img {
+  height: 100%;
+  background-color: white;
 }
 
 /* HEADER */
@@ -121,6 +145,40 @@ nav.row {
   }
 
   .one .row.bottom .box {
+    width: 100%;
+  }
+}
+
+/* hero two */
+.two {
+  padding: 130px 0 60px 0;
+  background-color: var(--viola);
+}
+
+.two .row {
+  justify-content: center;
+  align-items: flex-end;
+  gap: 70px;
+}
+
+.two .box {
+  width: calc((100% - 70px) / 2);
+}
+
+@media screen and (max-width: 1140px) {
+  .two {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .two .row {
+    flex-wrap: wrap;
+    gap: 35px;
+  }
+
+  .two .box {
     width: 100%;
   }
 }
