@@ -53,6 +53,16 @@
   height: 340px;
 }
 
+.debug .one .box .img {
+  height: 50%;
+  background-color: white;
+}
+
+.debug .one .box .w-30 .img {
+  height: 100%;
+  background-color: white;
+}
+
 /* hero two debug */
 .debug .two .box:first-child {
   height: 600px;
