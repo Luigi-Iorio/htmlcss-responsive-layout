@@ -9,11 +9,25 @@
 :root {
   --debug: #00fdb5;
   --blu: #0084fd;
+  --azzurro: #b5ddff;
 }
 
 .row {
   display: flex;
   flex-direction: row;
+}
+
+.hero {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.w-30 {
+  width: 30%;
 }
 
 /* DEBUG */
@@ -22,6 +36,16 @@
 .menu {
   padding: 0 20px;
   background-color: var(--debug);
+}
+
+/* hero one debug */
+.debug .one {
+  height: 870px;
+}
+
+.debug .one .box {
+  text-align: center;
+  height: 340px;
 }
 
 /* HEADER */
@@ -44,5 +68,59 @@ nav.row {
 @media screen and (max-width: 1140px) {
   nav.row {
     padding: 0 30px;
+  }
+}
+
+/* hero one */
+.one {
+  padding: 50px 0 100px 0;
+}
+
+.one .row {
+  gap: 25px;
+}
+
+.one .row .box {
+  background-color: var(--azzurro);
+}
+
+.one .row.bottom {
+  margin-top: 25px;
+}
+
+.one .row.bottom .box {
+  width: calc((100% - 50px) / 3);
+}
+
+@media screen and (max-width: 1140px) {
+  .one {
+    padding: 50px 30px 100px 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .one .row.top {
+    flex-wrap: wrap;
+  }
+
+  .one .row.top .box.row {
+    flex-wrap: wrap;
+  }
+
+  .one .row.top .box.row .w-70,
+  .w-30 {
+    width: 100%;
+  }
+
+  .one .row.bottom {
+    flex-wrap: wrap;
+  }
+
+  .one .row.top .box {
+    width: 100%;
+  }
+
+  .one .row.bottom .box {
+    width: 100%;
   }
 }
