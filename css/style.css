@@ -99,6 +99,12 @@
   background-color: white;
 }
 
+/* hero four debug */
+.debug .four .box {
+  height: 400px;
+  background-color: white;
+}
+
 /* HEADER */
 header {
   height: 75px;
@@ -261,5 +267,44 @@ nav.row {
 
   .three .box .img {
     margin: 0;
+  }
+}
+
+/* hero four */
+.four {
+  padding: 80px 0 60px 0;
+  background-color: var(--viola);
+}
+
+.four h2 {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.four .row {
+  gap: 35px;
+  flex-wrap: wrap;
+}
+
+.four .box {
+  width: calc((100% - 70px) / 3);
+}
+
+@media screen and (max-width: 1140px) {
+  .four {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .four .box {
+    width: calc((100% - 70px) / 2);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .four .box {
+    width: 100%;
   }
 }
