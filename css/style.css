@@ -105,6 +105,20 @@
   background-color: white;
 }
 
+/* hero five debug */
+.debug .five .w-70,
+.five .w-30 {
+  height: 600px;
+  border: 2px solid black;
+}
+
+.debug .five .w-30 .img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: var(--debug);
+}
+
 /* HEADER */
 header {
   height: 75px;
@@ -305,6 +319,33 @@ nav.row {
 
 @media screen and (max-width: 576px) {
   .four .box {
+    width: 100%;
+  }
+}
+
+/* hero five */
+.five {
+  padding: 100px 0 150px 0;
+}
+
+.five .row {
+  gap: 100px;
+}
+
+@media screen and (max-width: 1140px) {
+  .five {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .five .row {
+    flex-wrap: wrap;
+  }
+
+  .five .w-30,
+  .w-70 {
     width: 100%;
   }
 }
