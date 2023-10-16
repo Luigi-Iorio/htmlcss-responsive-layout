@@ -18,6 +18,11 @@
   flex-direction: row;
 }
 
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
 .cont {
   max-width: 1140px;
   margin: 0 auto;
@@ -79,6 +84,18 @@
 
 .debug .two .box:last-child .img {
   height: 100%;
+  background-color: white;
+}
+
+/* hero three debug */
+.debug .three .box {
+  height: 280px;
+}
+
+.debug .three .box .img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
   background-color: white;
 }
 
@@ -190,5 +207,59 @@ nav.row {
 
   .two .box {
     width: 100%;
+  }
+}
+
+/* hero three */
+.three {
+  padding: 70px 0 110px 0;
+  text-align: center;
+}
+
+.three .cont > h4 {
+  margin-bottom: 45px;
+}
+
+.three h2 {
+  color: var(--viola);
+}
+
+.three .cont > p {
+  margin: 55px 0;
+}
+
+.three .col {
+  gap: 30px;
+}
+
+.three .box {
+  background-color: var(--viola);
+}
+
+.three .box.row {
+  gap: 60px;
+  align-items: center;
+}
+
+.three .box .img {
+  margin-left: 15px;
+}
+
+@media screen and (max-width: 1140px) {
+  .three {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .three .box.row {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .three .box .img {
+    margin: 0;
   }
 }
