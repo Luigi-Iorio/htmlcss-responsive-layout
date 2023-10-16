@@ -4,3 +4,45 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/* COMMON */
+:root {
+  --debug: #00fdb5;
+  --blu: #0084fd;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+/* DEBUG */
+/* header debug*/
+.debug nav .logo,
+.menu {
+  padding: 0 20px;
+  background-color: var(--debug);
+}
+
+/* HEADER */
+header {
+  height: 75px;
+  background-color: var(--blu);
+  color: white;
+}
+
+nav {
+  line-height: 75px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+nav.row {
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1140px) {
+  nav.row {
+    padding: 0 30px;
+  }
+}
