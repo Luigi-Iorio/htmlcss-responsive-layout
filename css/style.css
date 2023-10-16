@@ -11,6 +11,7 @@
   --blu: #0084fd;
   --azzurro: #b5ddff;
   --viola: #9792e4;
+  --grigio: #333333;
 }
 
 .row {
@@ -348,4 +349,39 @@ nav.row {
   .w-70 {
     width: 100%;
   }
+}
+
+/* footer */
+footer {
+  text-align: center;
+}
+
+footer .top {
+  padding: 65px 0;
+  background-color: var(--viola);
+}
+
+footer .top h4 {
+  margin-bottom: 30px;
+}
+
+footer .top h3 {
+  margin-bottom: 60px;
+}
+
+footer .top h2 {
+  margin-bottom: 50px;
+}
+
+footer .top .button {
+  margin: 35px 0;
+}
+
+footer .bottom {
+  padding: 40px;
+  background-color: var(--grigio);
+}
+
+footer .bottom p:first-child {
+  margin-bottom: 70px;
 }
