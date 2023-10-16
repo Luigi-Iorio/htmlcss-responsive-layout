@@ -32,11 +32,11 @@
 }
 
 /* DEBUG */
-.box {
+.debug .box {
   border: 2px dashed red;
 }
 
-.img {
+.debug .img {
   border: 2px solid black;
 }
 
