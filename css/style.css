@@ -12,6 +12,9 @@
   --azzurro: #b5ddff;
   --viola: #9792e4;
   --grigio: #333333;
+  --testo-grigio: #737373;
+  --testo-footer-viola: #cbc9f1;
+  --testo-hero-one: #5a6e7f;
   --giallo: #fdc15f;
 }
 
@@ -20,7 +23,7 @@ body {
 }
 
 p {
-  line-height: 1.5rem;
+  line-height: 2rem;
 }
 
 ul {
@@ -87,15 +90,6 @@ button:hover {
   width: 30%;
 }
 
-/* DEBUG */
-/* .debug .box {
-  border: 2px dashed red;
-}
-
-.debug .img {
-  border: 2px solid black;
-} */
-
 /* HEADER */
 header {
   height: 75px;
@@ -153,7 +147,7 @@ nav.row {
 
 .one .row {
   flex-wrap: wrap;
-  gap: 25px;
+  gap: 1.5625rem;
 }
 
 .one .row .box {
@@ -186,7 +180,7 @@ nav.row {
 }
 
 .one .row .w-60 {
-  padding: 2.1875rem 0 3.75rem 1.25rem;
+  padding: 0 0 3.75rem 1.25rem;
 }
 
 .one .row .w-40 {
@@ -198,6 +192,8 @@ nav.row {
 }
 
 .one p {
+  color: var(--testo-hero-one);
+  font-weight: bold;
   font-size: 1.125rem;
 }
 
@@ -441,6 +437,7 @@ h5 {
 }
 
 .four h2 {
+  color: white;
   font-size: 48px;
   text-align: center;
   margin-bottom: 70px;
@@ -454,6 +451,10 @@ h5 {
 .four h4 {
   color: var(--viola);
   font-size: 24px;
+}
+
+.four p {
+  color: var(--testo-grigio);
 }
 
 .four .row {
@@ -475,6 +476,7 @@ h5 {
 }
 
 .four button {
+  width: 50%;
   color: white;
 }
 
@@ -590,6 +592,8 @@ footer .top {
 }
 
 footer .top h4 {
+  font-weight: normal;
+  color: var(--testo-footer-viola);
   font-size: 18px;
   margin-bottom: 30px;
 }
