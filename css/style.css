@@ -91,12 +91,6 @@ button:hover {
   border: 2px solid black;
 } */
 
-/* hero four debug */
-.debug .four .box {
-  height: 400px;
-  background-color: white;
-}
-
 /* hero five debug */
 .debug .five .w-70,
 .five .w-30 {
@@ -456,8 +450,19 @@ h5 {
 }
 
 .four h2 {
+  font-size: 48px;
   text-align: center;
   margin-bottom: 70px;
+}
+
+.four h3 {
+  color: var(--viola);
+  font-size: 72px;
+}
+
+.four h4 {
+  color: var(--viola);
+  font-size: 24px;
 }
 
 .four .row {
@@ -467,7 +472,19 @@ h5 {
 }
 
 .four .box {
+  border-radius: 15px;
+  background-color: white;
+  padding: 30px 20px;
   width: calc((100% - 70px) / 3);
+}
+
+.four .box.col {
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.four button {
+  color: white;
 }
 
 @media screen and (max-width: 1140px) {
