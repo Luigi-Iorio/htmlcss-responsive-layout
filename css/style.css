@@ -142,7 +142,7 @@ nav.row {
 
 /* hero one */
 .one {
-  padding: 50px 0 100px 0;
+  padding: 3.125rem 0 6.25rem 0;
 }
 
 .one .row {
@@ -259,18 +259,18 @@ nav.row {
 
 /* hero two */
 .two {
-  padding: 130px 0 60px 0;
+  padding: 8.125rem 0 3.75rem 0;
   background-color: var(--viola);
 }
 
 .two .cont {
-  padding: 0 100px;
+  padding: 0 6.25rem;
 }
 
 .two .row {
   justify-content: center;
   align-items: flex-end;
-  gap: 70px;
+  gap: 4.375rem;
 }
 
 .two .w-60 {
@@ -278,33 +278,33 @@ nav.row {
 }
 
 .two .w-60 h3 {
-  font-size: 34px;
-  margin-bottom: 50px;
+  font-size: 2.125rem;
+  margin-bottom: 3.125rem;
 }
 
 .two .w-60 p {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .two .w-60 .img {
-  margin-bottom: 130px;
+  margin-bottom: 8.125rem;
 }
 
 .two .w-40 {
   text-align: center;
-  padding: 35px 45px;
+  padding: 2.1875rem 2.8125rem;
   background-color: white;
   border-radius: 15px;
 }
 
 .two .w-40 h3 {
-  font-size: 24px;
-  margin-top: 25px;
+  font-size: 1.5rem;
+  margin-top: 1.5625rem;
 }
 
 .two .w-40 p {
-  margin: 30px 0;
-  font-size: 18px;
+  margin: 1.875rem 0;
+  font-size: 1.125rem;
   font-style: oblique;
 }
 
@@ -343,26 +343,26 @@ nav.row {
 
 /* hero three */
 .three {
-  padding: 70px 0 110px 0;
+  padding: 4.375rem 0 6.875rem 0;
   text-align: center;
 }
 
 .three .cont > p {
-  margin-bottom: 45px;
+  margin-bottom: 2.8125rem;
 }
 
 .three h2 {
-  font-size: 34px;
+  font-size: 2.125rem;
   color: var(--viola);
 }
 
 .three p,
 h5 {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .three .cont > p {
-  margin: 55px 0;
+  margin: 3.4375rem 0;
 }
 
 .three .col {
@@ -370,7 +370,7 @@ h5 {
 }
 
 .three .box {
-  padding: 10px;
+  padding: 0.625rem;
   border-radius: 15px;
   color: white;
   background-color: var(--viola);
@@ -432,25 +432,25 @@ h5 {
 
 /* hero four */
 .four {
-  padding: 80px 0 60px 0;
+  padding: 5rem 0 3.75rem 0;
   background-color: var(--viola);
 }
 
 .four h2 {
   color: white;
-  font-size: 48px;
+  font-size: 3rem;
   text-align: center;
-  margin-bottom: 70px;
+  margin-bottom: 4.375rem;
 }
 
 .four h3 {
   color: var(--viola);
-  font-size: 72px;
+  font-size: 4.5rem;
 }
 
 .four h4 {
   color: var(--viola);
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .four p {
@@ -466,7 +466,7 @@ h5 {
 .four .box {
   border-radius: 15px;
   background-color: white;
-  padding: 30px 20px;
+  padding: 1.875rem 1.25rem;
   width: calc((100% - 70px) / 3);
 }
 
@@ -501,21 +501,21 @@ h5 {
 
 /* hero five */
 .five {
-  padding: 100px 0 150px 0;
+  padding: 6.25rem 0 9.375rem 0;
 }
 
 .five h2 {
-  font-size: 72px;
-  margin-bottom: 60px;
+  font-size: 4.5rem;
+  margin-bottom: 3.75rem;
   color: var(--viola);
 }
 
 .five p {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .five .p-top {
-  margin-bottom: 70px;
+  margin-bottom: 4.375rem;
 }
 
 .five h4 {
@@ -534,7 +534,7 @@ h5 {
 
 .five .img {
   position: relative;
-  margin: 15px;
+  margin: 0.9375rem;
   height: 9.375rem;
   width: 9.375rem;
   border-radius: 50%;
@@ -552,7 +552,7 @@ h5 {
 .five .w-30 .fa-quote-left {
   color: var(--viola);
   z-index: 2;
-  font-size: 40px;
+  font-size: 2.5rem;
   position: absolute;
   top: 0;
   right: 0;
@@ -587,7 +587,7 @@ footer {
 }
 
 footer .top {
-  padding: 65px 0;
+  padding: 4.0625rem 0;
   background-color: var(--viola);
 }
 
@@ -599,28 +599,28 @@ footer .top h4 {
 }
 
 footer .top h3 {
-  font-size: 48px;
-  margin-bottom: 60px;
+  font-size: 3rem;
+  margin-bottom: 3.75rem;
 }
 
 footer .top h2 {
   color: var(--giallo);
-  font-size: 92px;
-  margin-bottom: 50px;
+  font-size: 5.75rem;
+  margin-bottom: 3.125rem;
 }
 
 footer .top button {
   color: var(--viola);
-  margin: 35px 0;
+  margin: 2.1875rem 0;
 }
 
 footer .bottom {
-  padding: 40px;
+  padding: 2.5rem;
   background-color: var(--grigio);
 }
 
 footer .bottom p:first-child {
-  margin-bottom: 70px;
+  margin-bottom: 4.375rem;
 }
 
 footer a {
