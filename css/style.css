@@ -38,7 +38,7 @@ a {
 button {
   padding: 0.625rem;
   border: none;
-  border-radius: 13px;
+  border-radius: 20px;
   background-color: white;
   transition: all 0.4s;
 }
@@ -209,6 +209,10 @@ nav.row {
 .one .box h3 {
   font-size: 1.5625rem;
   color: var(--blu);
+}
+
+.one button {
+  width: 40%;
 }
 
 @media screen and (max-width: 1140px) {
@@ -611,7 +615,11 @@ footer .top h2 {
 
 footer .top button {
   color: var(--viola);
+  padding: 1.25rem 0.625rem;
   margin: 2.1875rem 0;
+  width: 20%;
+  font-weight: bold;
+  font-size: 1.125rem;
 }
 
 footer .bottom {
