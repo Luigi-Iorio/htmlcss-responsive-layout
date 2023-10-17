@@ -91,18 +91,6 @@ button:hover {
   border: 2px solid black;
 } */
 
-/* hero three debug */
-.debug .three .box {
-  height: 280px;
-}
-
-.debug .three .box .img {
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
-  background-color: white;
-}
-
 /* hero four debug */
 .debug .four .box {
   height: 400px;
@@ -378,12 +366,18 @@ nav.row {
   text-align: center;
 }
 
-.three .cont > h4 {
+.three .cont > p {
   margin-bottom: 45px;
 }
 
 .three h2 {
+  font-size: 34px;
   color: var(--viola);
+}
+
+.three p,
+h5 {
+  font-size: 20px;
 }
 
 .three .cont > p {
@@ -395,7 +389,14 @@ nav.row {
 }
 
 .three .box {
+  padding: 10px;
+  border-radius: 15px;
+  color: white;
   background-color: var(--viola);
+}
+
+.three .box .col {
+  text-align: left;
 }
 
 .three .box.row {
@@ -404,7 +405,19 @@ nav.row {
 }
 
 .three .box .img {
-  margin-left: 15px;
+  margin: 15px;
+  height: 9.375rem;
+  width: 9.375rem;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.three .box .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 50%;
 }
 
 @media screen and (max-width: 1140px) {
@@ -419,6 +432,16 @@ nav.row {
     padding-top: 15px;
     display: flex;
     flex-direction: column;
+    gap: 25px;
+    margin: 0 auto;
+  }
+
+  .three .box {
+    max-width: 400px;
+  }
+
+  .three .box .col {
+    text-align: center;
   }
 
   .three .box .img {
