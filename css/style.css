@@ -44,6 +44,11 @@ button {
   color: white;
 }
 
+.viola {
+  background-color: var(--viola);
+  color: black;
+}
+
 button:hover {
   background-color: var(--grigio);
   color: white;
@@ -85,25 +90,6 @@ button:hover {
 .debug .img {
   border: 2px solid black;
 } */
-
-/* hero two debug */
-.debug .two .box:first-child {
-  height: 600px;
-}
-
-.debug .two .box:first-child .img {
-  height: 60%;
-  background-color: white;
-}
-
-.debug .two .box:last-child {
-  height: 450px;
-}
-
-.debug .two .box:last-child .img {
-  height: 100%;
-  background-color: white;
-}
 
 /* hero three debug */
 .debug .three .box {
@@ -308,14 +294,60 @@ nav.row {
   background-color: var(--viola);
 }
 
+.two .cont {
+  padding: 0 100px;
+}
+
 .two .row {
   justify-content: center;
   align-items: flex-end;
   gap: 70px;
 }
 
-.two .box {
-  width: calc((100% - 70px) / 2);
+.two .w-60 {
+  color: white;
+}
+
+.two .w-60 h3 {
+  font-size: 34px;
+  margin-bottom: 50px;
+}
+
+.two .w-60 p {
+  font-size: 16px;
+}
+
+.two .w-60 .img {
+  margin-bottom: 130px;
+}
+
+.two .w-40 {
+  text-align: center;
+  padding: 35px 45px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.two .w-40 h3 {
+  font-size: 24px;
+  margin-top: 25px;
+}
+
+.two .w-40 p {
+  margin: 30px 0;
+  font-size: 18px;
+  font-style: oblique;
+}
+
+.two .img img {
+  display: block;
+  width: 100%;
+}
+
+.two button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
 }
 
 @media screen and (max-width: 1140px) {
@@ -326,6 +358,10 @@ nav.row {
 }
 
 @media screen and (max-width: 992px) {
+  .two .cont {
+    padding: 0;
+  }
+
   .two .row {
     flex-wrap: wrap;
     gap: 35px;
