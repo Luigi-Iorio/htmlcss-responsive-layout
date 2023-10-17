@@ -12,6 +12,7 @@
   --azzurro: #b5ddff;
   --viola: #9792e4;
   --grigio: #333333;
+  --giallo: #fdc15f;
 }
 
 body {
@@ -580,6 +581,7 @@ h5 {
 /* footer */
 footer {
   text-align: center;
+  color: white;
 }
 
 footer .top {
@@ -588,18 +590,23 @@ footer .top {
 }
 
 footer .top h4 {
+  font-size: 18px;
   margin-bottom: 30px;
 }
 
 footer .top h3 {
+  font-size: 48px;
   margin-bottom: 60px;
 }
 
 footer .top h2 {
+  color: var(--giallo);
+  font-size: 92px;
   margin-bottom: 50px;
 }
 
-footer .top .button {
+footer .top button {
+  color: var(--viola);
   margin: 35px 0;
 }
 
@@ -610,4 +617,25 @@ footer .bottom {
 
 footer .bottom p:first-child {
   margin-bottom: 70px;
+}
+
+footer a {
+  text-decoration: underline;
+}
+
+footer .bottom a {
+  color: var(--viola);
+}
+
+footer p {
+  margin: 0 auto;
+  max-width: 60%;
+}
+
+@media screen and (max-width: 1140px) {
+  footer .top,
+  .bottom {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
